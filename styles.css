@@ -15,7 +15,7 @@ h1{
 .card-grid {
     display: flex;
    /*  flex-direction: column; */
-    border: dashed red;
+    /* border: dashed red; */
     justify-content: center;
     align-items: center;
     /* margin: 50%; */
@@ -83,5 +83,5 @@ h1{
    
 }
 .anchor:hover{
-    background-color:white;
+    background-color:brown;
 }
