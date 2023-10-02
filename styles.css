@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+
+}
+
+h1{
+    text-align: center;
+    /* margin: 0 auto; */
+}
+.card-grid {
+    display: flex;
+   /*  flex-direction: column; */
+    border: dashed red;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50%; */
+    
+    height: 100vh;
+    /* margin: 50px; */
+}
+
+.card-card-1 {
+    padding: 20px;
+    background-color: hsl(31, 77%, 52%);
+    height:50%;
+    width: 25%;
+
+}
+
+.card-card-2 {
+    padding: 20px;
+    background-color: hsl(184, 100%, 22%);
+    height:50%;
+    width: 25%;
+}
+
+.card-card-3 {
+    padding: 20px;
+    background-color: hsl(179, 100%, 13%);
+    height:50%;
+    width: 25%;
+}
+
+.card-card-1,
+.card-card-3{
+    border-radius: 5px;
+}
+
+@media (max-width: 768px){
+    .card-grid{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 25px;
+    color: white;
+}
+.anchor{
+    margin-top: 50px;
+    border: 1px solid white;
+    border-radius: 45px;
+    text-align: center;
+    width: fit-content;
+    /* width: max-content; */
+    padding: 30px;
+    /* align-items: center; */
+    /* display: flex; */
+
+}
+.anchor a {
+    color: azure;
+    text-decoration: none;
+   
+}
+.anchor:hover{
+    background-color: brown;
+}
